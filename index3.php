@@ -4,11 +4,11 @@ $igraci = $xml->igrac;
 ?>
 
 <!doctype html>
-<html lang="en">
+<html lang="hr">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Players Rankings</title>
+  <title>Poredak Igrača</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <style>
     body {
@@ -68,21 +68,21 @@ $igraci = $xml->igrac;
   <header id="navheader">
     <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand" href="tenis.html">Tennis</a>
+        <a class="navbar-brand" href="tenis.html">Tenis</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Meni">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" href="index.php">Singles</a>
+              <a class="nav-link active" href="index.php">Pojedinačno</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="doubles.php">Doubles</a>
+              <a class="nav-link" href="doubles.php">Parovi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="mecevi.php">Matches</a>
+              <a class="nav-link" href="mecevi.php">Mečevi</a>
             </li>
           </ul>
         </div>
@@ -91,15 +91,15 @@ $igraci = $xml->igrac;
   </header>
 
   <div class="container">
-    <h2 class="section-title">Singl Poredak</h2>
+    <h2 class="section-title">Poredak u singlu</h2>
     <table class="table table-hover">
       <thead>
         <tr>
-          <th>Rank</th>
-          <th>Name</th>
-          <th>Surname</th>
-          <th>Country</th>
-          <th>Points</th>
+          <th>Poredak</th>
+          <th>Ime</th>
+          <th>Prezime</th>
+          <th>Država</th>
+          <th>Bodovi</th>
         </tr>
       </thead>
       <tbody>
@@ -116,21 +116,21 @@ $igraci = $xml->igrac;
     </table>
   </div>
 
-  <nav aria-label="Page navigation example">
+  <nav aria-label="Navigacija stranica">
     <ul class="pagination justify-content-center">
       <li class="page-item">
-        <a class="page-link" href="index2.php" aria-label="Previous">
+        <a class="page-link" href="index2.php" aria-label="Prethodna">
           <span aria-hidden="true">&laquo;</span>
-          <span class="sr-only">Previous</span>
+          <span class="sr-only">Prethodna</span>
         </a>
       </li>
       <li class="page-item"><a class="page-link" href="index.php">1</a></li>
       <li class="page-item"><a class="page-link" href="index2.php">2</a></li>
       <li class="page-item"><a class="page-link" href="index3.php">3</a></li>
       <li class="page-item">
-        <a class="page-link" href="#" aria-label="Next">
+        <a class="page-link" href="#" aria-label="Sljedeća">
           <span aria-hidden="true">&raquo;</span>
-          <span class="sr-only">Next</span>
+          <span class="sr-only">Sljedeća</span>
         </a>
       </li>
     </ul>

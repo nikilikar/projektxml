@@ -236,6 +236,24 @@ article {
     padding: 5px;
 }
 
+#poredak {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#poredaklink {
+    margin-top: 50px;
+    color: white;
+    font-size: 18px;
+    margin-left: 75px;
+    background-color: #002a5c;
+    padding: 16px 19px;
+    border-radius: 20px;
+    width: 210px;
+}
 
 
 footer {
