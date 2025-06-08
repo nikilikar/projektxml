@@ -69,7 +69,7 @@ $igraci = $xml->igrac;
   <header id="navheader">
     <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand" href="#">Poredak - Tenis</a>
+        <a class="navbar-brand" href="tenis.html">Tennis</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -77,13 +77,13 @@ $igraci = $xml->igrac;
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" href="index.php">Singl</a>
+              <a class="nav-link active" href="index.php">Singles</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="doubles.php">Parovi</a>
+              <a class="nav-link" href="doubles.php">Doubles</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="mecevi.php">Mečevi</a>
+              <a class="nav-link" href="mecevi.php">Matches</a>
             </li>
           </ul>
         </div>
@@ -92,16 +92,16 @@ $igraci = $xml->igrac;
   </header>
 
   <div class="container">
-    <h2 class="section-title">Singl Poredak</h2>
+    <h2 class="section-title">Singles Ranking</h2>
     <table class="table table-hover">
       <thead>
         <tr>
           <th>Rank</th>
-          <th>Slika</th>
-          <th>Ime</th>
-          <th>Prezime</th>
-          <th>Drzava</th>
-          <th>Bodovi</th>
+          <th>Photo</th>
+          <th>Name</th>
+          <th>Surname</th>
+          <th>Country</th>
+          <th>Points</th>
         </tr>
       </thead>
       <tbody>

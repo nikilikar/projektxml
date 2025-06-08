@@ -1,0 +1,286 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;             
+    justify-content: space-between; 
+    align-items: center;         
+    background-color: #002a5c;
+    color: white;
+    padding: 15px 50px;
+}
+
+#glavninaslov{
+    padding: 0px 22px;
+}
+
+#slika1 {
+    background-image: url(slika1.jpg);
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* poravnanje lijevo */
+}
+
+#slika1 a {
+    text-decoration: none;
+}
+
+#slika1tekst{
+    margin: 0;
+    font-size: 85px;
+    padding-left: 75px;
+    color: white;
+}
+#velikinaslov {
+    padding-top: 175px;
+}
+
+#readmore{
+    margin: 0;
+    color: white;
+    font-size: 18px;
+    margin-left: 75px;
+    background-color: #002a5c;
+    padding: 14px 17px;
+    border-radius: 20px
+}
+
+article {
+    color: #1c1c1c;
+    background-color: #f9f6f2;
+    padding: 40px 70px;
+        letter-spacing: 1px;
+
+}
+
+.glavninaslovi {
+    font-size: 27px;
+}
+
+#topslika {
+    background-image: url(topslika.png);
+    height: 320px;
+    width: 47%;
+    background-size: cover;        
+    background-position: center;    
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+#topred {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+#toptekst {
+    padding-left: 10px;
+    flex: 1;
+    word-wrap: break-word;
+}
+
+#toptekst h3 {
+    margin: 0;
+    font-size: 37px;
+}
+
+#toptekst a{
+    color: white;
+    text-decoration: none;
+}
+
+#toptekst a:hover{
+    text-decoration: underline;
+}
+
+#topmore {
+    letter-spacing: 1px;
+    color: white;
+    background-color: #0f3d2e;
+    padding: 10px;
+    border-radius: 10px;
+    width: 37px;
+}
+
+#ostaleprice {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.price {
+  flex: 1;
+  min-width: 0; 
+  word-wrap: break-word;
+}
+
+#slika2 {
+    background-image: url(slika2.jpg);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#slika3 {
+    background-image: url(slika3.jpg);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#slika4 {
+    background-image: url(slika4.jpg);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#slika2, #slika3, #slika4 {
+  height: 230px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.price h3 {
+    margin-top: 0;
+    padding: 15px;
+    background-color: #f1eae0;
+    height: 50px auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#livescores {
+    display: flex;
+    gap: 30px;
+    font-size: 13px;
+}
+
+.scores {
+    flex: 1;
+    min-width: 0; 
+    margin: 0;
+    word-wrap: break-word; 
+    background-color: rgb(243, 239, 233);
+    padding: 7px;
+    padding-bottom: 12px;
+}
+
+.scores h5, h4, h3, p {
+    margin: 5px;
+}
+
+.redovi {
+    display: flex;
+    justify-content: space-between; /* razmak između lijeve i desne strane */
+    align-items: center;
+    padding: 4px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.live {
+    background-color: #4ae14a;
+    color: white;
+    padding: 5px;
+}
+
+.igrac-info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.drzava {
+    color:#908d8d;
+}
+
+.rezultati {
+    display: flex;
+    gap: 5px;
+}
+
+.set {
+    background-color: #4ae14a;
+    color: white;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 3px;
+}
+
+.poeni {
+    background-color: #908d8d;
+    color: white;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 3px;
+}
+
+#broj {
+    color: #908d8d;
+}
+
+.check {
+    color: #4ae14a;
+}
+
+#walkover {
+    padding: 5px;
+}
+
+
+
+footer {
+    background-color: #002a5c;
+    color: white;
+    padding: 10px 55px;
+    margin-top: 40px;
+}
+
+#navheader ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    gap: 15px;
+}
+
+#navheader ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+#navheader ul li a:hover {
+    background-color: #61894b;
+}
+
+#navfooter ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;                      
+}
+
+#navfooter ul li a {
+    display: block;
+    padding: 15px 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#navfooter ul li a:hover {
+    text-decoration: underline;
+}
