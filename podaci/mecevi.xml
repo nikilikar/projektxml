@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mecevi>
+  <mec id="1">
+    <igrac1>Carlos Alcaraz</igrac1>
+    <igrac2>Jannik Sinner</igrac2>
+    <rezultat>3-2</rezultat>
+    <turnir>Roland Garros</turnir>
+    <datum>2024-06-07</datum>
+  </mec>
+  <mec id="2">
+    <igrac1>Jannik Sinner</igrac1>
+    <igrac2>Carlos Alcaraz</igrac2>
+    <rezultat>2-1</rezultat>
+    <turnir>Indian Wells</turnir>
+    <datum>2024-03-17</datum>
+  </mec>
+  <mec id="3">
+    <igrac1>Jannik Sinner</igrac1>
+    <igrac2>Carlos Alcaraz</igrac2>
+    <rezultat>2-1</rezultat>
+    <turnir>Beijing</turnir>
+    <datum>2024-10-02</datum>
+  </mec>
+  <mec id="4">
+    <igrac1>Carlos Alcaraz</igrac1>
+    <igrac2>Jannik Sinner</igrac2>
+    <rezultat>2-1</rezultat>
+    <turnir>Miami</turnir>
+    <datum>2023-04-01</datum>
+  </mec>
+  <mec id="5">
+    <igrac1>Carlos Alcaraz</igrac1>
+    <igrac2>Jannik Sinner</igrac2>
+    <rezultat>2-0</rezultat>
+    <turnir>Indian Wells</turnir>
+    <datum>2023-03-19</datum>
+  </mec>
+  <mec id="6">
+    <igrac1>Jannik Sinner</igrac1>
+    <igrac2>Novak Djokovic</igrac2>
+    <rezultat>3-0</rezultat>
+    <turnir>Australian Open</turnir>
+    <datum>2025-01-22</datum>
+  </mec>
+  <mec id="7">
+    <igrac1>Jannik Sinner</igrac1>
+    <igrac2>Holger Rune</igrac2>
+    <rezultat>3-1</rezultat>
+    <turnir>Australian Open</turnir>
+    <datum>2025-01-20</datum>
+  </mec>
+  <mec id="8">
+    <igrac1>Lorenzo Musetti</igrac1>
+    <igrac2>Holger Rune</igrac2>
+    <rezultat>7-5, 3-6, 6-3, 6-2</rezultat>
+    <turnir>Roland Garros</turnir>
+    <datum>2025-06-01</datum>
+  </mec>
+  <mec id="9">
+    <igrac1>Novak Djokovic</igrac1>
+    <igrac2>Alexander Zverev</igrac2>
+    <rezultat>2-?</rezultat> <!-- točan rezultat ne naveden -->
+    <turnir>Roland Garros</turnir>
+    <datum>2025-06-05</datum>
+  </mec>
+  <mec id="10">
+    <igrac1>Lorenzo Musetti</igrac1>
+    <igrac2>Carlos Alcaraz</igrac2>
+    <rezultat>6-4, 6-7, –</rezultat> <!-- meč u tijeku -->
+    <turnir>Roland Garros</turnir>
+    <datum>2025-06-06</datum>
+  </mec>
+</mecevi>

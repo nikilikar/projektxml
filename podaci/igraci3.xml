@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<igraci>
+  <igrac id="21">
+    <ime>Ugo</ime>
+    <prezime>Humbert</prezime>
+    <drzava>Francuska</drzava>
+    <ranking>#21</ranking>
+    <bodovi>2.155</bodovi>
+  </igrac>
+  <igrac id="22">
+    <ime>Tomas</ime>
+    <prezime>Machac</prezime>
+    <drzava>Češka</drzava>
+    <ranking>#22</ranking>
+    <bodovi>2.110</bodovi>
+  </igrac>
+  <igrac id="23">
+    <ime>Sebastian</ime>
+    <prezime>Korda</prezime>
+    <drzava>SAD</drzava>
+    <ranking>#23</ranking>
+    <bodovi>2.020</bodovi>
+  </igrac>
+  <igrac id="24">
+    <ime>Karen</ime>
+    <prezime>Khachanov</prezime>
+    <drzava>Rusija</drzava>
+    <ranking>#24</ranking>
+    <bodovi>1.960</bodovi>
+  </igrac>
+  <igrac id="25">
+    <ime>Alexei</ime>
+    <prezime>Popyrin</prezime>
+    <drzava>Australija</drzava>
+    <ranking>#25</ranking>
+    <bodovi>1.950</bodovi>
+  </igrac>
+  <igrac id="26">
+    <ime>Flavio</ime>
+    <prezime>Cobolli</prezime>
+    <drzava>Italija</drzava>
+    <ranking>#26</ranking>
+    <bodovi>1.920</bodovi>
+  </igrac>
+  <igrac id="27">
+    <ime>Felix</ime>
+    <prezime>Auger-Aliassime</prezime>
+    <drzava>Kanada</drzava>
+    <ranking>#27</ranking>
+    <bodovi>1.875</bodovi>
+  </igrac>
+  <igrac id="28">
+    <ime>Hubert</ime>
+    <prezime>Hurkacz</prezime>
+    <drzava>Poljska</drzava>
+    <ranking>#28</ranking>
+    <bodovi>1.830</bodovi>
+  </igrac>
+  <igrac id="29">
+    <ime>Alejandro</ime>
+    <prezime>Davidovich Fokina</prezime>
+    <drzava>Španjolska</drzava>
+    <ranking>#29</ranking>
+    <bodovi>1.770</bodovi>
+  </igrac>
+  <igrac id="30">
+    <ime>Matteo</ime>
+    <prezime>Berrettini</prezime>
+    <drzava>Italija</drzava>
+    <ranking>#30</ranking>
+    <bodovi>1.720</bodovi>
+  </igrac>
+</igraci>

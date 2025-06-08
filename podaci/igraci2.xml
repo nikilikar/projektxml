@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<igraci>
+  <igrac id="11">
+    <ime>Daniil</ime>
+    <prezime>Medvedev</prezime>
+    <drzava>Rusija</drzava>
+    <ranking>#11</ranking>
+    <bodovi>3.290</bodovi>
+  </igrac>
+  <igrac id="12">
+    <ime>Tommy</ime>
+    <prezime>Paul</prezime>
+    <drzava>SAD</drzava>
+    <ranking>#12</ranking>
+    <bodovi>3.210</bodovi>
+  </igrac>
+  <igrac id="13">
+    <ime>Ben</ime>
+    <prezime>Shelton</prezime>
+    <drzava>SAD</drzava>
+    <ranking>#13</ranking>
+    <bodovi>2.980</bodovi>
+  </igrac>
+  <igrac id="14">
+    <ime>Arthur</ime>
+    <prezime>Fils</prezime>
+    <drzava>Francuska</drzava>
+    <ranking>#14</ranking>
+    <bodovi>2.845</bodovi>
+  </igrac>
+  <igrac id="15">
+    <ime>Andrey</ime>
+    <prezime>Rublev</prezime>
+    <drzava>Rusija</drzava>
+    <ranking>#15</ranking>
+    <bodovi>2.820</bodovi>
+  </igrac>
+  <igrac id="16">
+    <ime>Frances</ime>
+    <prezime>Tiafoe</prezime>
+    <drzava>SAD</drzava>
+    <ranking>#16</ranking>
+    <bodovi>2.665</bodovi>
+  </igrac>
+  <igrac id="17">
+    <ime>Grigor</ime>
+    <prezime>Dimitrov</prezime>
+    <drzava>Bjelorusija</drzava>
+    <ranking>#17</ranking>
+    <bodovi>2.595</bodovi>
+  </igrac>
+  <igrac id="18">
+    <ime>Francisco</ime>
+    <prezime>Cerundolo</prezime>
+    <drzava>Argentina</drzava>
+    <ranking>#18</ranking>
+    <bodovi>2.475</bodovi>
+  </igrac>
+  <igrac id="19">
+    <ime>Jakub</ime>
+    <prezime>Mensik</prezime>
+    <drzava>Češka</drzava>
+    <ranking>#19</ranking>
+    <bodovi>2.272</bodovi>
+  </igrac>
+  <igrac id="20">
+    <ime>Stefanos</ime>
+    <prezime>Tsitsipas</prezime>
+    <drzava>Grčka</drzava>
+    <ranking>#20</ranking>
+    <bodovi>2.270</bodovi>
+  </igrac>
+</igraci>
