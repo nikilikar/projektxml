@@ -97,6 +97,7 @@ $igraci = $xml->igrac;
       <thead>
         <tr>
           <th>Rank</th>
+          <th>Slika</th>
           <th>Ime</th>
           <th>Prezime</th>
           <th>Drzava</th>
@@ -107,6 +108,9 @@ $igraci = $xml->igrac;
         <?php foreach ($igraci as $igrac): ?>
           <tr>
           <td class="rank-cell"><?= $igrac->ranking ?></td>
+          <td>
+            <img src="<?= $igrac->slika ?>" alt="Slika igrača" class="rounded-circle" style="width: 50px; height: 50px; object-fit: cover;">
+          </td>
           <td><?= $igrac->ime ?></td>
           <td><?= $igrac->prezime ?></td>
           <td><?= $igrac->drzava ?></td>

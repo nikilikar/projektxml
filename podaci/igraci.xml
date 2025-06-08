@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <igraci>
   <igrac id="1">
+  <slika>slike/sinner.png</slika>
     <ime>Jannik</ime>
     <prezime>Sinner</prezime>
     <drzava>Italija</drzava>
@@ -8,6 +9,7 @@
     <bodovi>10.380</bodovi>
   </igrac>
   <igrac id="2">
+  <slika>slike/alcaraz.png</slika>
     <ime>Carlos</ime>
     <prezime>Alcaraz</prezime>
     <drzava>Španjolska</drzava>
@@ -15,6 +17,7 @@
     <bodovi>8.850</bodovi>
   </igrac>
   <igrac id="3">
+  <slika>slike/zverev.png</slika>
     <ime>Alexander</ime>
     <prezime>Zverev</prezime>
     <drzava>Njemačka</drzava>
@@ -22,6 +25,7 @@
     <bodovi>7.125</bodovi>
   </igrac>
   <igrac id="4">
+  <slika>slike/fritz.png</slika>
     <ime>Taylor</ime>
     <prezime>Fritz</prezime>
     <drzava>SAD</drzava>
@@ -29,6 +33,7 @@
     <bodovi>4.675</bodovi>
   </igrac>
   <igrac id="5">
+  <slika>slike/draper.png</slika>
     <ime>Jack</ime>
     <prezime>Draper</prezime>
     <drzava>Ujedinjeno Kraljevstvo</drzava>
@@ -36,6 +41,7 @@
     <bodovi>4.610</bodovi>
   </igrac>
   <igrac id="6">
+  <slika>slike/djokovic.png</slika>
     <ime>Novak</ime>
     <prezime>Djokovic</prezime>
     <drzava>Srbija</drzava>
@@ -43,6 +49,7 @@
     <bodovi>4.230</bodovi>
   </igrac>
   <igrac id="7">
+  <slika>slike/musetti.png</slika>
     <ime>Lorenzo</ime>
     <prezime>Musetti</prezime>
     <drzava>Italija</drzava>
@@ -50,6 +57,7 @@
     <bodovi>3.860</bodovi>
   </igrac>
   <igrac id="8">
+  <slika>slike/ruud.png</slika>
     <ime>Casper</ime>
     <prezime>Ruud</prezime>
     <drzava>Danska</drzava>
@@ -57,6 +65,7 @@
     <bodovi>3.655</bodovi>
   </igrac>
   <igrac id="9">
+  <slika>slike/minaur.png</slika>
     <ime>Alex</ime>
     <prezime>de Minaur</prezime>
     <drzava>Australija</drzava>
@@ -64,6 +73,7 @@
     <bodovi>3.635</bodovi>
   </igrac>
   <igrac id="10">
+  <slika>slike/rune.png</slika>
     <ime>Holger</ime>
     <prezime>Rune</prezime>
     <drzava>Danska</drzava>
